@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Web Projects",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#083048",
+			"titleBar.activeBackground": "#0B4465",
+			"titleBar.activeForeground": "#F5FBFE"
+		}
+	}
+}

@@ -177,6 +177,10 @@ h6 {
   padding: 0;
 }
 
+em {
+  text-align: justify; 
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -760,9 +764,13 @@ section {
   font-size: 26px;
   font-weight: 400;
   margin-top: 20px;
-  margin-bottom: 20px;
-  color: #222222;
-}
+  margin-bottom: 20px; 
+  padding: 10px 10px 10px 10px; 
+  font-weight: 900;
+  color: #222222; 
+  background-color: #e9e8e6; 
+
+} 
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
