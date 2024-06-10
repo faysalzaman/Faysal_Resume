@@ -1305,3 +1305,11 @@ section {
 /*--------------------------------------------------------------
 # for animation in the home page
 --------------------------------------------------------------*/
+
+#animatedText {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  text-align: center;
+}
