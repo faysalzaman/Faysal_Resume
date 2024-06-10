@@ -1307,9 +1307,17 @@ section {
 --------------------------------------------------------------*/
 
 #animatedText {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  width: 100%;
-  text-align: center;
+  animation: fadeInOut 3s infinite; /* The animation will run indefinitely */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  } /* Start with fully transparent */
+  50% {
+    opacity: 1;
+  } /* Fade in the text */
+  100% {
+    opacity: 0;
+  } /* Fade out the text */
 }
